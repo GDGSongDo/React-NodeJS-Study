@@ -15,6 +15,9 @@ Deploy: FireBase
 
 
 # Node.js + React + Express
+![노드로고](./src/_static/img/nodeJSLogo.png)
+
+
 ### Study Materials
 > 1. 인프런 강좌 (NEW - 2018년) 베이직 코스 13강
 > 1. 인프런 강좌 (OLD - 2016년) 중급코스 35강
@@ -94,4 +97,5 @@ Deploy: FireBase
 - **강좌 6-5편** : [Backend-MongoDB 기본명령어 (i) | 생성 및 제거 ](https://www.youtube.com/watch?v=SpEnZCU5VbY&index=33&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [187:33]
 - **강좌 6-6편** : [Backend-MongoDB 기본명령어 (ii) | find()](https://www.youtube.com/watch?v=m5k0RGd5rSI&index=34&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [187:33]
 - **강좌 6-7편** : [Backend-MongoDB 기본명령어 (iii) | sort, limit, skip, update ](https://www.youtube.com/watch?v=OSI3jKrWGl4&index=35&list=PL9FpF_z-xR_GMujql3S_XGV2SpdfDBkeC) [197:03]
+
 ---

@@ -1,5 +1,5 @@
 /*
-* 강좌2-2편 = JSX의 특징
+* 강좌2-1편 = JSX의 특징
 * -----
 * 일단 간단한 실습은 코드팬(codePen.io) 에서 O.k
 * 환경=Babel, React, ReactDOM
@@ -14,11 +14,10 @@ import ReactDOM from 'react-dom';
 class CodeLab extends React.Component {
   render() {
     return (
-      <div> CodeLab </div>
+      <div>This is CodeLab!</div>
     );
   }
 }
-
 
 
 class App extends React.Component {
@@ -29,4 +28,5 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render( <App/> , document.getElementById('root'));
+
+ReactDOM.render(<App/>, document.getElementById('root'));

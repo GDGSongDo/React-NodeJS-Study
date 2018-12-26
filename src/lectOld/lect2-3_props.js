@@ -35,6 +35,8 @@ CodeLab.defaultProps = {
   number: 13
 };
 
+
+
 // <CodeLab name="velopert">this contents! shows</CodeLab>
 class App extends React.Component {
     render()  {
@@ -55,3 +57,30 @@ ReactDOM.render(
   <App name='VeloPert!'>Unknown?</App>,
   document.getElementById('root')
 );
+
+
+// refer to: https://facebook.githun.id/react/docs/reusable-components.html
+/*
+
+class AppTwo extends React.Component {
+  render() {
+    return(
+      <div>
+        {this.props.value}
+        {this.props.secondValue}
+        {this.props.thirdValue}
+      </div>
+    );
+  }
+};
+
+AppTwo.prototype = {
+  value: PropTypes.string,
+  secondValue: PropTypes.number,
+  thirdValue: PropTypes.any.isRequred
+};
+
+ReactDOM.render(
+  <AppTwo name='velopert'>I am your children</App>,
+  document.getElementById('root'));
+**/
